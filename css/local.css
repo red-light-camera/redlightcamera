@@ -1,0 +1,175 @@
+body
+{
+    font-family: 'Roboto Slab', sans-serif;
+    background-color: #444;
+}
+
+break
+{
+    display: block;
+    margin: 2px;
+    font-size:1em;
+    line-height: 120%;
+}
+
+hblock
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1em;
+    margin: 1em;
+    width: 80%;
+}
+
+.disclaimer
+{
+    font-size: 180%;
+    font-weight: 700;
+    text-shadow: 4px 4px 4px #88a;
+}
+
+.head
+{
+    text-shadow: 4px 4px 4px #88a;
+
+    width: 80%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: #2a2;
+    padding: 4px;
+    background-color: #cec;
+    text-align: center;
+    border: 20px solid #007;
+}
+
+.headline
+{
+    font-family: 'Lemonada', sans-serif;
+    font-size: 300%;
+
+    color:red;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border: 10px solid #888;
+    padding:.4em;
+
+}
+
+.subtitle
+{
+    font-family: sans-serif;
+    font-size: 250%;
+
+    color:blue;
+    padding: .7em;
+    position: center;
+}
+
+.right
+{
+    text-align: right;
+}
+
+.italic
+{
+    font-style: italic;
+}
+
+pre
+{
+    font-size: 80%;
+    color: #241;
+}
+
+address
+{
+    display: block;
+    unicode-bidi: embed;
+    font-family: monospace;
+    white-space: pre;
+    font-size: 120%;
+    color: #241;
+}
+
+
+img.resize {
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: auto;
+    width:800px; /* you can use % */
+    height: auto;
+}
+
+video
+{
+    margin-top: 1em;
+    margin-left: 10em;
+}
+
+br
+{
+    margin-bottom: 1em;
+}
+
+li
+{
+    margin-bottom:.5em;
+}
+
+ul
+{
+    font-size: 120%;
+    margin-top: .5em;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding: .5em;
+}
+
+em
+{
+    font-weight: 700;
+    font-style: italic;
+}
+
+.it
+{
+    font-style: italic;
+}
+
+.bold
+{
+    font-weight: 700;
+}
+
+.size_200
+{
+    font-size: 200%;
+}
+
+quote
+{
+    padding: 20%;
+    font-style: italic;
+    font-size: 90%;
+    color: brown;
+}
+
+hr
+{
+    display: block;
+    color: #e33;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: ridge;
+    border-width: 5px;
+}
+
+.color_ul
+{
+    color: #000;
+    background-color:#cde;
+}
