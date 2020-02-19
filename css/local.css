@@ -38,9 +38,9 @@ hblock
     margin-bottom: 1em;
     color: #2a2;
     padding: 4px;
-    background-color: #cec;
     text-align: center;
     border: 20px solid #007;
+    background-image: linear-gradient(to bottom right, #aea, #cde);
 }
 
 .headline
@@ -54,6 +54,10 @@ hblock
     margin-top: 10px;
     border: 10px solid #888;
     padding:.4em;
+    //background-color: #464;
+    background-image: url("../img/logo1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
 
 }
 
@@ -120,7 +124,7 @@ li
 
 ul
 {
-    font-size: 120%;
+    font-size: 100%;
     margin-top: .5em;
     margin-left: 2em;
     margin-right: 2em;
@@ -148,6 +152,16 @@ em
     font-size: 200%;
 }
 
+.litem
+{
+    width: 20em;
+}
+
+.bp
+{
+    width: 30em;
+}
+
 quote
 {
     padding: 20%;
@@ -171,5 +185,15 @@ hr
 .color_ul
 {
     color: #000;
-    background-color:#cde;
+    background-image: linear-gradient(to bottom right, #cde, #8ae);
+
+}
+
+.para
+{
+    margin-left: 3em;
+    width: 40%;
+    background-image: linear-gradient(to bottom right, #cde, #8ae);
+    text-align: left;
+    padding: .5em;
 }
